@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyans Bookshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Get the best books <br> online</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores <br> reiciendis iusto obcaecati, id quisquam aliquam maxime! Quos repellat <br> saepe, iure, obcaecati molestiae, beatae reiciendis corrupti mollitia <br> veritatis cum enim fugit.</p>
+                <a href="" class="btn">Shop now</a>
+            </div>
+            <div class="col-2">
+                <img src="images/18.png">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="categories">
+        <div class="small-container">
+            <h2 style="text-align: center; margin: 0 auto 80px; position: relative; line-height: 60px; color: black;">Featured Books</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="images/41.jpeg">
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="col-3">
+                <img src="images/40.jpeg">
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="col-3">
+                <img src="images/42.jpeg">
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+            <div class="col-3">
+                <img src="images/43.jpeg">
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <h2 style="text-align: center; margin: 0 auto 80px; position: relative; line-height: 60px; color: black;">Reviews</h2>
+            <div class="row">
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, id consequuntur dolor hic exercitationem vero cumque numquam impedit soluta animi praesentium quaerat eligendi ipsam at earum est ad. Tempora, sapiente.</p>
+                    <img src="images/lebron.png">
+                    <h3>Lebron James</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, id consequuntur dolor hic exercitationem vero cumque numquam impedit soluta animi praesentium quaerat eligendi ipsam at earum est ad. Tempora, sapiente.</p>
+                    <img src="images/messi.png">
+                    <h3>Lionel Messi</h3>
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, id consequuntur dolor hic exercitationem vero cumque numquam impedit soluta animi praesentium quaerat eligendi ipsam at earum est ad. Tempora, sapiente.</p>
+                    <img src="images/nadal.png">
+                    <h3>Rafael Nadal</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our app for android and ios mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/15.png">
+                    <p>Get books online.Learn and develop your skills.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>                        
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Created by Priyans Bhatt</p>
+        </div>
+    </div>
+    <!-------JS for toggle menu---------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
